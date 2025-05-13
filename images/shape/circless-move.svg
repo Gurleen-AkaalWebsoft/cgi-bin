@@ -1,0 +1,30 @@
+<svg class="circles-main--" width="200" height="200" viewBox="0 0 418 371" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle class="circle11" cx="127.5" cy="127.5" r="100" stroke="#EB151E" stroke-width="15"/>
+<circle class="circle22" cx="378" cy="331" r="32.5" stroke="#EB151E" stroke-width="15"/>
+<circle class="circle33" cx="282" cy="262" r="57.5" stroke="#EB151E" stroke-width="15"/>
+
+<style>
+  .circles-main--{
+   transform: rotateY(180deg);
+  }
+   .circle22 {
+    animation: myAnimation 4s infinite alternate;
+  }
+ .circle33 {
+    animation:myAnimation2 4s infinite alternate;
+  
+  }
+  
+  @keyframes myAnimation {
+  
+    100% {transform: translate3d(-120px, 10px, 0); }
+  }
+
+  @keyframes myAnimation2 {
+  
+    100% {transform: translate3d(-80px, 10px, 0); }
+  }
+}
+</style>
+
+</svg>

@@ -1,0 +1,28 @@
+
+<svg width="258" height="33" viewBox="0 0 258 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M71.378 11.6863C107.447 9.11118 181.344 4.73342 188.381 7.82361C138.53 2.67329 35.8371 -3.76459 23.8729 11.6863C67.8591 12.4589 157.943 14.4675 166.388 16.3216C174.834 18.1757 230.315 17.0942 257 16.3216C181.344 16.5791 24.2247 19.8753 1 31" stroke="#FF2D28" stroke-width="3"/>
+
+
+
+
+<style>
+
+path , circle {
+    stroke-width: 3;
+    fill: none;
+background: transparent;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 2s ease-in-out alternate infinite;
+    transition: stroke-dashoffset 1s ease-in-out;
+  }
+    
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+ 
+
+ </style>
+</svg>
